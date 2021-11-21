@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+/* global css here  */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    overflow-x: hidden !important;
+}
+a {
+    text-decoration: none;
+}
+
+.special-color {
+    color: #E76F51;
+}
+
+/* banner section css here */
+.banner-section {
+    background-color: #264653;
+}
+
+.banner-details-text {
+    font-size: 14px;
+    color: #E0E0E0 !important;
+}
+
+.honda-btn {
+    background-color: #E76F51;
+}
+
+.modal-title-color{
+    color: #E76F51 !important;
+    font-weight: 600;
+    text-align: center;
+}
+.modal-message{
+    color: black !important;
+    font-weight: 400;
+    text-align: center;
+}
+.modal-text{
+    color: black !important;
+    font-weight: 400; 
+    font-size: 16px !important;
+}
+
+/* fetured section css  */
+
+.img-gray {
+    filter: grayscale(100%) !important;
+}
+/* client section css */
+.icon i {
+    color: #E76F51;
+}
+
+.client-name {
+    color: #23A6F0;
+    font-size: 16px;
+}
+
+/* faq section css */
+.accordion-body {
+    color: gray !important;
+}
+
+.card-img {
+    width: auto;
+    height: 200px !important
+}
+
+/* offer box */
+.offer-box {
+    background-color: #fcfcfc;
+}
+
+
+/* footer */
+.footer-bg {
+    background-color: #264653;
+    height: 20vh;
+}
